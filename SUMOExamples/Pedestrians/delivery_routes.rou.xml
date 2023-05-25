@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-05-25 16:35:33.134914 by randomTrips.py v1_17_0+0000-737931d58da
+<configuration>
+    <net-file value="map.net.xml"/>
+    <output-trip-file value="delivery_trips.xml"/>
+    <route-file value="delivery_routes.rou.xml"/>
+    <trip-attributes value="color=&quot;115,211,230&quot;"/>
+    <end value="600.0"/>
+    <vehicle-class value="delivery"/>
+    <period value="30.0"/>
+</configuration>
+-->
+
+<!-- generated on 2023-05-25 16:35:33 by Eclipse SUMO duarouter Version 1.17.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="map.net.xml"/>
+        <route-files value="delivery_trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="delivery_routes.rou.xml"/>
+        <alternatives-output value="NUL"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="600.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="delivery" vClass="delivery" color="115,211,230"/>
+    <vehicle id="deliv1" type="delivery" depart="30.00">
+        <route edges="-gneE3 -gneE0"/>
+    </vehicle>
+    <vehicle id="deliv2" type="delivery" depart="60.00">
+        <route edges="gneE0 gneE1"/>
+    </vehicle>
+    <vehicle id="deliv3" type="delivery" depart="90.00">
+        <route edges="gneE2 -gneE0"/>
+    </vehicle>
+    <vehicle id="deliv4" type="delivery" depart="120.00">
+        <route edges="-gneE3 -gneE0"/>
+    </vehicle>
+    <vehicle id="deliv6" type="delivery" depart="180.00">
+        <route edges="-gneE1 -gneE0"/>
+    </vehicle>
+    <vehicle id="deliv7" type="delivery" depart="210.00">
+        <route edges="gneE0 gneE1"/>
+    </vehicle>
+    <vehicle id="deliv9" type="delivery" depart="270.00">
+        <route edges="gneE2 -gneE0"/>
+    </vehicle>
+    <vehicle id="deliv10" type="delivery" depart="300.00">
+        <route edges="gneE2 gneE1"/>
+    </vehicle>
+    <vehicle id="deliv11" type="delivery" depart="330.00">
+        <route edges="-gneE3 -gneE0"/>
+    </vehicle>
+    <vehicle id="deliv13" type="delivery" depart="390.00">
+        <route edges="-gneE1 -gneE0"/>
+    </vehicle>
+    <vehicle id="deliv14" type="delivery" depart="420.00">
+        <route edges="gneE2 gneE1"/>
+    </vehicle>
+    <vehicle id="deliv15" type="delivery" depart="450.00">
+        <route edges="gneE2 gneE1"/>
+    </vehicle>
+    <vehicle id="deliv16" type="delivery" depart="480.00">
+        <route edges="gneE0 gneE3"/>
+    </vehicle>
+    <vehicle id="deliv17" type="delivery" depart="510.00">
+        <route edges="-gneE3 gneE1"/>
+    </vehicle>
+    <vehicle id="deliv18" type="delivery" depart="540.00">
+        <route edges="gneE2 gneE1"/>
+    </vehicle>
+    <vehicle id="deliv19" type="delivery" depart="570.00">
+        <route edges="gneE2 gneE1"/>
+    </vehicle>
+</routes>

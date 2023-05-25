@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-05-25 16:35:29.375398 by randomTrips.py v1_17_0+0000-737931d58da
+<configuration>
+    <net-file value="map.net.xml"/>
+    <output-trip-file value="bus_trips.xml"/>
+    <route-file value="bus_routes.rou.xml"/>
+    <trip-attributes value="accel=&quot;0.8&quot;"/>
+    <end value="600.0"/>
+    <vehicle-class value="bus"/>
+    <period value="30.0"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="bus" vClass="bus" accel="0.8"/>
+    <trip id="0" depart="0.00" from="gneE0" to="-gneE0" type="bus"/>
+    <trip id="1" depart="30.00" from="-gneE3" to="-gneE0" type="bus"/>
+    <trip id="2" depart="60.00" from="gneE0" to="gneE1" type="bus"/>
+    <trip id="3" depart="90.00" from="gneE2" to="-gneE0" type="bus"/>
+    <trip id="4" depart="120.00" from="-gneE3" to="-gneE0" type="bus"/>
+    <trip id="5" depart="150.00" from="-gneE1" to="gneE1" type="bus"/>
+    <trip id="6" depart="180.00" from="-gneE1" to="-gneE0" type="bus"/>
+    <trip id="7" depart="210.00" from="gneE0" to="gneE1" type="bus"/>
+    <trip id="8" depart="240.00" from="-gneE1" to="gneE1" type="bus"/>
+    <trip id="9" depart="270.00" from="gneE2" to="-gneE0" type="bus"/>
+    <trip id="10" depart="300.00" from="gneE2" to="gneE1" type="bus"/>
+    <trip id="11" depart="330.00" from="-gneE3" to="-gneE0" type="bus"/>
+    <trip id="12" depart="360.00" from="gneE2" to="-gneE2" type="bus"/>
+    <trip id="13" depart="390.00" from="-gneE1" to="-gneE0" type="bus"/>
+    <trip id="14" depart="420.00" from="gneE2" to="gneE1" type="bus"/>
+    <trip id="15" depart="450.00" from="gneE2" to="gneE1" type="bus"/>
+    <trip id="16" depart="480.00" from="gneE0" to="gneE3" type="bus"/>
+    <trip id="17" depart="510.00" from="-gneE3" to="gneE1" type="bus"/>
+    <trip id="18" depart="540.00" from="gneE2" to="gneE1" type="bus"/>
+    <trip id="19" depart="570.00" from="gneE2" to="gneE1" type="bus"/>
+</routes>

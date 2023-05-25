@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-05-25 16:35:31.153201 by randomTrips.py v1_17_0+0000-737931d58da
+<configuration>
+    <net-file value="map.net.xml"/>
+    <output-trip-file value="truck_trips.xml"/>
+    <route-file value="truck_routes.rou.xml"/>
+    <trip-attributes value="color=&quot;179,223,183&quot;"/>
+    <end value="600.0"/>
+    <vehicle-class value="truck"/>
+    <period value="15.0"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="truck" vClass="truck" color="179,223,183"/>
+    <trip id="0" depart="0.00" from="gneE0" to="-gneE0" type="truck"/>
+    <trip id="1" depart="15.00" from="-gneE3" to="-gneE0" type="truck"/>
+    <trip id="2" depart="30.00" from="gneE0" to="gneE1" type="truck"/>
+    <trip id="3" depart="45.00" from="gneE2" to="-gneE0" type="truck"/>
+    <trip id="4" depart="60.00" from="-gneE3" to="-gneE0" type="truck"/>
+    <trip id="5" depart="75.00" from="-gneE1" to="gneE1" type="truck"/>
+    <trip id="6" depart="90.00" from="-gneE1" to="-gneE0" type="truck"/>
+    <trip id="7" depart="105.00" from="gneE0" to="gneE1" type="truck"/>
+    <trip id="8" depart="120.00" from="-gneE1" to="gneE1" type="truck"/>
+    <trip id="9" depart="135.00" from="gneE2" to="-gneE0" type="truck"/>
+    <trip id="10" depart="150.00" from="gneE2" to="gneE1" type="truck"/>
+    <trip id="11" depart="165.00" from="-gneE3" to="-gneE0" type="truck"/>
+    <trip id="12" depart="180.00" from="gneE2" to="-gneE2" type="truck"/>
+    <trip id="13" depart="195.00" from="-gneE1" to="-gneE0" type="truck"/>
+    <trip id="14" depart="210.00" from="gneE2" to="gneE1" type="truck"/>
+    <trip id="15" depart="225.00" from="gneE2" to="gneE1" type="truck"/>
+    <trip id="16" depart="240.00" from="gneE0" to="gneE3" type="truck"/>
+    <trip id="17" depart="255.00" from="-gneE3" to="gneE1" type="truck"/>
+    <trip id="18" depart="270.00" from="gneE2" to="gneE1" type="truck"/>
+    <trip id="19" depart="285.00" from="gneE2" to="gneE1" type="truck"/>
+    <trip id="20" depart="300.00" from="gneE0" to="-gneE0" type="truck"/>
+    <trip id="21" depart="315.00" from="-gneE1" to="-gneE2" type="truck"/>
+    <trip id="22" depart="330.00" from="-gneE1" to="-gneE0" type="truck"/>
+    <trip id="23" depart="345.00" from="-gneE1" to="-gneE2" type="truck"/>
+    <trip id="24" depart="360.00" from="gneE0" to="-gneE2" type="truck"/>
+    <trip id="25" depart="375.00" from="-gneE3" to="-gneE0" type="truck"/>
+    <trip id="26" depart="390.00" from="-gneE3" to="gneE3" type="truck"/>
+    <trip id="27" depart="405.00" from="gneE0" to="gneE1" type="truck"/>
+    <trip id="28" depart="420.00" from="-gneE1" to="gneE1" type="truck"/>
+    <trip id="29" depart="435.00" from="-gneE1" to="-gneE2" type="truck"/>
+    <trip id="30" depart="450.00" from="gneE2" to="gneE1" type="truck"/>
+    <trip id="31" depart="465.00" from="gneE0" to="gneE1" type="truck"/>
+    <trip id="32" depart="480.00" from="gneE2" to="gneE3" type="truck"/>
+    <trip id="33" depart="495.00" from="-gneE1" to="-gneE0" type="truck"/>
+    <trip id="34" depart="510.00" from="-gneE3" to="-gneE2" type="truck"/>
+    <trip id="35" depart="525.00" from="-gneE1" to="gneE3" type="truck"/>
+    <trip id="36" depart="540.00" from="gneE2" to="-gneE2" type="truck"/>
+    <trip id="37" depart="555.00" from="gneE0" to="-gneE2" type="truck"/>
+    <trip id="38" depart="570.00" from="gneE2" to="-gneE2" type="truck"/>
+    <trip id="39" depart="585.00" from="-gneE3" to="-gneE0" type="truck"/>
+</routes>

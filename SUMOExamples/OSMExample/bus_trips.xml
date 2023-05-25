@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-05-25 16:18:07.199889 by randomTrips.py v1_17_0+0000-737931d58da
+<configuration>
+    <net-file value="map.net.xml"/>
+    <output-trip-file value="bus_trips.xml"/>
+    <route-file value="bus_routes.rou.xml"/>
+    <trip-attributes value="accel=&quot;0.8&quot;"/>
+    <vehicle-class value="bus"/>
+    <period value="30.0"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="bus" vClass="bus" accel="0.8"/>
+    <trip id="0" depart="0.00" from="12515825#0" to="-12504859#1" type="bus"/>
+    <trip id="1" depart="30.00" from="-189090040#15" to="-12525041#2" type="bus"/>
+    <trip id="2" depart="60.00" from="144679983#0" to="12520167#0" type="bus"/>
+    <trip id="3" depart="90.00" from="517104480#1" to="-12509907#2" type="bus"/>
+    <trip id="4" depart="120.00" from="-724068298#7" to="-12505016#1" type="bus"/>
+    <trip id="5" depart="150.00" from="-12521280#6" to="12506334" type="bus"/>
+    <trip id="6" depart="180.00" from="-12504859#4" to="-12520167#5" type="bus"/>
+    <trip id="7" depart="210.00" from="12516691#7" to="12509610#0" type="bus"/>
+    <trip id="8" depart="240.00" from="-12522474#2" to="12512702#0" type="bus"/>
+    <trip id="9" depart="270.00" from="27272673#1" to="-12497370" type="bus"/>
+    <trip id="10" depart="300.00" from="27271744#0" to="12523462#2" type="bus"/>
+    <trip id="11" depart="330.00" from="-28693981#0" to="-12515987#3" type="bus"/>
+    <trip id="12" depart="360.00" from="724068303" to="-334781293#8" type="bus"/>
+    <trip id="13" depart="390.00" from="-12510104#0" to="-12510292#3" type="bus"/>
+    <trip id="14" depart="420.00" from="334781293#3" to="12514598#15" type="bus"/>
+    <trip id="15" depart="450.00" from="27271744#3" to="144679972#1" type="bus"/>
+    <trip id="16" depart="480.00" from="12507596#4" to="750011609#15" type="bus"/>
+    <trip id="17" depart="510.00" from="-517104475" to="12509898#6" type="bus"/>
+    <trip id="18" depart="540.00" from="28151997#0" to="12514941" type="bus"/>
+    <trip id="19" depart="570.00" from="351695511#0" to="12511455#2" type="bus"/>
+    <trip id="20" depart="600.00" from="12523216#1" to="-12506236#0" type="bus"/>
+    <trip id="21" depart="630.00" from="-12523216#0" to="-23969821#3" type="bus"/>
+    <trip id="22" depart="660.00" from="-12509452#1" to="-12525901#2" type="bus"/>
+    <trip id="23" depart="690.00" from="-12510539#2" to="-195316373#1" type="bus"/>
+    <trip id="24" depart="720.00" from="12515414#1" to="-517104480#0" type="bus"/>
+    <trip id="25" depart="750.00" from="-370814340#6" to="-12522498" type="bus"/>
+    <trip id="26" depart="780.00" from="-144846516#3" to="724068288#3" type="bus"/>
+    <trip id="27" depart="810.00" from="12516691#3" to="12514813#0" type="bus"/>
+    <trip id="28" depart="840.00" from="-12516691#6" to="13475393#6" type="bus"/>
+    <trip id="29" depart="870.00" from="-12515987#5" to="-713420429#2" type="bus"/>
+    <trip id="30" depart="900.00" from="784874387#1" to="12516691#9" type="bus"/>
+    <trip id="31" depart="930.00" from="12509470#1" to="12520676" type="bus"/>
+    <trip id="32" depart="960.00" from="33057329#1" to="19801911" type="bus"/>
+    <trip id="33" depart="990.00" from="-12523462#1" to="-12505036#3" type="bus"/>
+    <trip id="34" depart="1020.00" from="-27199515#7" to="-189090040#29" type="bus"/>
+    <trip id="35" depart="1050.00" from="-12520175#0" to="724068294#0" type="bus"/>
+    <trip id="36" depart="1080.00" from="473901198" to="-27603088#7" type="bus"/>
+    <trip id="37" depart="1110.00" from="12517184#0" to="-724068289#2" type="bus"/>
+    <trip id="38" depart="1140.00" from="671983232#5" to="12497370" type="bus"/>
+    <trip id="39" depart="1170.00" from="-144679984#6" to="-144679972#2" type="bus"/>
+    <trip id="40" depart="1200.00" from="12509610#5" to="-189090040#19" type="bus"/>
+    <trip id="41" depart="1230.00" from="12510955#5" to="565169247" type="bus"/>
+    <trip id="42" depart="1260.00" from="-717388482#1" to="-12524698" type="bus"/>
+    <trip id="43" depart="1290.00" from="847327156#3" to="12506776#0" type="bus"/>
+    <trip id="44" depart="1320.00" from="-12509907#2" to="-12506334" type="bus"/>
+    <trip id="45" depart="1350.00" from="-12510960#2" to="12515825#0" type="bus"/>
+    <trip id="46" depart="1380.00" from="24018678" to="-724068309#3" type="bus"/>
+    <trip id="47" depart="1410.00" from="-12507887#0" to="-717388482#1" type="bus"/>
+    <trip id="48" depart="1440.00" from="847327156#0" to="12508531#4" type="bus"/>
+    <trip id="49" depart="1470.00" from="750011609#0" to="351695511#1" type="bus"/>
+    <trip id="50" depart="1500.00" from="-12502975#1" to="12526385#2" type="bus"/>
+    <trip id="51" depart="1530.00" from="12518945" to="12509269#3" type="bus"/>
+    <trip id="52" depart="1560.00" from="-144846516#3" to="12516873#0" type="bus"/>
+    <trip id="53" depart="1590.00" from="-12511211" to="-750011609#4" type="bus"/>
+    <trip id="54" depart="1620.00" from="-750011609#4" to="724068302#2" type="bus"/>
+    <trip id="55" depart="1650.00" from="473901189" to="-189090040#2" type="bus"/>
+    <trip id="56" depart="1680.00" from="12504783#2" to="-12517602#1" type="bus"/>
+    <trip id="57" depart="1710.00" from="671983232#1" to="370814340#3" type="bus"/>
+    <trip id="58" depart="1740.00" from="-23968302#1" to="12516691#7" type="bus"/>
+    <trip id="59" depart="1770.00" from="12513610#1" to="-12515537" type="bus"/>
+    <trip id="60" depart="1800.00" from="189090040#6" to="12509340" type="bus"/>
+    <trip id="61" depart="1830.00" from="195316407#6" to="12508542" type="bus"/>
+    <trip id="62" depart="1860.00" from="-104796138#1" to="-28693981#0" type="bus"/>
+    <trip id="63" depart="1890.00" from="-12504283#2" to="717388488#2" type="bus"/>
+    <trip id="64" depart="1920.00" from="473901225#2" to="28693981#2" type="bus"/>
+    <trip id="65" depart="1950.00" from="-26965605#2" to="-12507596#0" type="bus"/>
+    <trip id="66" depart="1980.00" from="473901225#0" to="724068298#4" type="bus"/>
+    <trip id="67" depart="2010.00" from="-12509610#3" to="12505012#0" type="bus"/>
+    <trip id="68" depart="2040.00" from="-12508343#4" to="189090054" type="bus"/>
+    <trip id="69" depart="2070.00" from="189090044#1" to="-12514206#3" type="bus"/>
+    <trip id="70" depart="2100.00" from="104796144#0" to="12509898#1" type="bus"/>
+    <trip id="71" depart="2130.00" from="-144679984#6" to="370815179" type="bus"/>
+    <trip id="72" depart="2160.00" from="-724068299#2" to="-12523142#2" type="bus"/>
+    <trip id="73" depart="2190.00" from="12507944#2" to="144679972#1" type="bus"/>
+    <trip id="74" depart="2220.00" from="-12518704" to="-27603088#0" type="bus"/>
+    <trip id="75" depart="2250.00" from="8426472#2" to="12517214#1" type="bus"/>
+    <trip id="76" depart="2280.00" from="-724068309#0" to="12507582" type="bus"/>
+    <trip id="77" depart="2310.00" from="-12512350#0" to="-12525075#1" type="bus"/>
+    <trip id="78" depart="2340.00" from="-28151997#8" to="12512579#4" type="bus"/>
+    <trip id="79" depart="2370.00" from="-12523465" to="-12524976#1" type="bus"/>
+    <trip id="80" depart="2400.00" from="-12508683" to="12515987#6" type="bus"/>
+    <trip id="81" depart="2430.00" from="-12523462#1" to="629297643" type="bus"/>
+    <trip id="82" depart="2460.00" from="338422816#1" to="-12508929#1" type="bus"/>
+    <trip id="83" depart="2490.00" from="-12525075#3" to="12518691" type="bus"/>
+    <trip id="84" depart="2520.00" from="-12520592#1" to="-12514598#11" type="bus"/>
+    <trip id="85" depart="2550.00" from="724068283" to="12510960#1" type="bus"/>
+    <trip id="86" depart="2580.00" from="104796138#0" to="23969821#3" type="bus"/>
+    <trip id="87" depart="2610.00" from="27271744#3" to="-12518562#2" type="bus"/>
+    <trip id="88" depart="2640.00" from="-12510207#4" to="-750011609#21" type="bus"/>
+    <trip id="89" depart="2670.00" from="-724068300" to="12502975#1" type="bus"/>
+    <trip id="90" depart="2700.00" from="12526644#0" to="12519108" type="bus"/>
+    <trip id="91" depart="2730.00" from="751615566" to="-12510539#2" type="bus"/>
+    <trip id="92" depart="2760.00" from="-717388488#13" to="-334781295#11" type="bus"/>
+    <trip id="93" depart="2790.00" from="351695511#0" to="-144679984#0" type="bus"/>
+    <trip id="94" depart="2820.00" from="-12518084#0" to="-8426472#3" type="bus"/>
+    <trip id="95" depart="2850.00" from="-724068298#7" to="-195316373#2" type="bus"/>
+    <trip id="96" depart="2880.00" from="-12525915#2" to="713420429#4" type="bus"/>
+    <trip id="97" depart="2910.00" from="-749763243" to="351695511#2" type="bus"/>
+    <trip id="98" depart="2940.00" from="12508929#2" to="-12506776#0" type="bus"/>
+    <trip id="99" depart="2970.00" from="847327156#7" to="32043901#1" type="bus"/>
+    <trip id="100" depart="3000.00" from="724068310#2" to="717388488#0" type="bus"/>
+    <trip id="101" depart="3030.00" from="334781293#5" to="-12517094#0" type="bus"/>
+    <trip id="102" depart="3060.00" from="12502975#1" to="-12523214#2" type="bus"/>
+    <trip id="103" depart="3090.00" from="-717388488#10" to="-12507596#2" type="bus"/>
+    <trip id="104" depart="3120.00" from="-517104476" to="751615567#3" type="bus"/>
+    <trip id="105" depart="3150.00" from="-144679984#6" to="23969821#2" type="bus"/>
+    <trip id="106" depart="3180.00" from="-750011609#7" to="-724068310#1" type="bus"/>
+    <trip id="107" depart="3210.00" from="724068303" to="8426472#4" type="bus"/>
+    <trip id="108" depart="3240.00" from="12509452#2" to="12525915#2" type="bus"/>
+    <trip id="109" depart="3270.00" from="-12515412#0" to="-27198776#0" type="bus"/>
+    <trip id="110" depart="3300.00" from="724068310#1" to="12511455#6" type="bus"/>
+    <trip id="111" depart="3330.00" from="12508343#2" to="189090040#21" type="bus"/>
+    <trip id="112" depart="3360.00" from="-12507530#1" to="12512244#0" type="bus"/>
+    <trip id="113" depart="3390.00" from="12504859#4" to="334781295#16" type="bus"/>
+    <trip id="114" depart="3420.00" from="-12515433#1" to="724068308#2" type="bus"/>
+    <trip id="115" depart="3450.00" from="-12509452#1" to="-12518315#0" type="bus"/>
+    <trip id="116" depart="3480.00" from="12511455#6" to="12519385#2" type="bus"/>
+    <trip id="117" depart="3510.00" from="-12525041#0" to="-12512579#2" type="bus"/>
+    <trip id="118" depart="3540.00" from="517104478#5" to="-144679972#1" type="bus"/>
+    <trip id="119" depart="3570.00" from="12511455#5" to="12515004#1" type="bus"/>
+</routes>

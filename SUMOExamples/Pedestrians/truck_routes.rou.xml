@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-05-25 16:35:31.403204 by randomTrips.py v1_17_0+0000-737931d58da
+<configuration>
+    <net-file value="map.net.xml"/>
+    <output-trip-file value="truck_trips.xml"/>
+    <route-file value="truck_routes.rou.xml"/>
+    <trip-attributes value="color=&quot;179,223,183&quot;"/>
+    <end value="600.0"/>
+    <vehicle-class value="truck"/>
+    <period value="15.0"/>
+</configuration>
+-->
+
+<!-- generated on 2023-05-25 16:35:31 by Eclipse SUMO duarouter Version 1.17.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="map.net.xml"/>
+        <route-files value="truck_trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="truck_routes.rou.xml"/>
+        <alternatives-output value="NUL"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="600.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="truck" vClass="truck" color="179,223,183"/>
+    <vehicle id="trucktruck1" type="truck" depart="15.00">
+        <route edges="-gneE3 -gneE0"/>
+    </vehicle>
+    <vehicle id="trucktruck2" type="truck" depart="30.00">
+        <route edges="gneE0 gneE1"/>
+    </vehicle>
+    <vehicle id="trucktruck3" type="truck" depart="45.00">
+        <route edges="gneE2 -gneE0"/>
+    </vehicle>
+    <vehicle id="trucktruck4" type="truck" depart="60.00">
+        <route edges="-gneE3 -gneE0"/>
+    </vehicle>
+    <vehicle id="trucktruck6" type="truck" depart="90.00">
+        <route edges="-gneE1 -gneE0"/>
+    </vehicle>
+    <vehicle id="trucktruck7" type="truck" depart="105.00">
+        <route edges="gneE0 gneE1"/>
+    </vehicle>
+    <vehicle id="trucktruck9" type="truck" depart="135.00">
+        <route edges="gneE2 -gneE0"/>
+    </vehicle>
+    <vehicle id="trucktruck10" type="truck" depart="150.00">
+        <route edges="gneE2 gneE1"/>
+    </vehicle>
+    <vehicle id="trucktruck11" type="truck" depart="165.00">
+        <route edges="-gneE3 -gneE0"/>
+    </vehicle>
+    <vehicle id="trucktruck13" type="truck" depart="195.00">
+        <route edges="-gneE1 -gneE0"/>
+    </vehicle>
+    <vehicle id="trucktruck14" type="truck" depart="210.00">
+        <route edges="gneE2 gneE1"/>
+    </vehicle>
+    <vehicle id="trucktruck15" type="truck" depart="225.00">
+        <route edges="gneE2 gneE1"/>
+    </vehicle>
+    <vehicle id="trucktruck16" type="truck" depart="240.00">
+        <route edges="gneE0 gneE3"/>
+    </vehicle>
+    <vehicle id="trucktruck17" type="truck" depart="255.00">
+        <route edges="-gneE3 gneE1"/>
+    </vehicle>
+    <vehicle id="trucktruck18" type="truck" depart="270.00">
+        <route edges="gneE2 gneE1"/>
+    </vehicle>
+    <vehicle id="trucktruck19" type="truck" depart="285.00">
+        <route edges="gneE2 gneE1"/>
+    </vehicle>
+    <vehicle id="trucktruck21" type="truck" depart="315.00">
+        <route edges="-gneE1 -gneE2"/>
+    </vehicle>
+    <vehicle id="trucktruck22" type="truck" depart="330.00">
+        <route edges="-gneE1 -gneE0"/>
+    </vehicle>
+    <vehicle id="trucktruck23" type="truck" depart="345.00">
+        <route edges="-gneE1 -gneE2"/>
+    </vehicle>
+    <vehicle id="trucktruck24" type="truck" depart="360.00">
+        <route edges="gneE0 -gneE2"/>
+    </vehicle>
+    <vehicle id="trucktruck25" type="truck" depart="375.00">
+        <route edges="-gneE3 -gneE0"/>
+    </vehicle>
+    <vehicle id="trucktruck27" type="truck" depart="405.00">
+        <route edges="gneE0 gneE1"/>
+    </vehicle>
+    <vehicle id="trucktruck29" type="truck" depart="435.00">
+        <route edges="-gneE1 -gneE2"/>
+    </vehicle>
+    <vehicle id="trucktruck30" type="truck" depart="450.00">
+        <route edges="gneE2 gneE1"/>
+    </vehicle>
+    <vehicle id="trucktruck31" type="truck" depart="465.00">
+        <route edges="gneE0 gneE1"/>
+    </vehicle>
+    <vehicle id="trucktruck32" type="truck" depart="480.00">
+        <route edges="gneE2 gneE3"/>
+    </vehicle>
+    <vehicle id="trucktruck33" type="truck" depart="495.00">
+        <route edges="-gneE1 -gneE0"/>
+    </vehicle>
+    <vehicle id="trucktruck34" type="truck" depart="510.00">
+        <route edges="-gneE3 -gneE2"/>
+    </vehicle>
+    <vehicle id="trucktruck35" type="truck" depart="525.00">
+        <route edges="-gneE1 gneE3"/>
+    </vehicle>
+    <vehicle id="trucktruck37" type="truck" depart="555.00">
+        <route edges="gneE0 -gneE2"/>
+    </vehicle>
+    <vehicle id="trucktruck39" type="truck" depart="585.00">
+        <route edges="-gneE3 -gneE0"/>
+    </vehicle>
+</routes>
