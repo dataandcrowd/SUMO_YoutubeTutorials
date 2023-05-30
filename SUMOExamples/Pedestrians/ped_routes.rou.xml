@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2023-05-25 16:35:38.662503 by randomTrips.py v1_17_0+0000-737931d58da
+<!-- generated on 2023-05-30 14:49:13.542979 by randomTrips.py v1_17_0+0000-737931d58da
 <configuration>
     <net-file value="map.net.xml"/>
     <output-trip-file value="ped_trips.xml"/>
@@ -11,7 +11,7 @@
 </configuration>
 -->
 
-<!-- generated on 2023-05-25 16:35:38 by Eclipse SUMO duarouter Version 1.17.0
+<!-- generated on 2023-05-30 14:49:13 by Eclipse SUMO duarouter Version 1.17.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
